@@ -13,3 +13,9 @@ switch(perfil){
     default:
         console.log("Perfil nao encontrado.");
 }
+
+/*o switch é uma estrutura de controle de fluxo
+que avalia uma expressão e a compara com diferentes
+cláusulas case. O comando break é crucial. Sem ele,
+o código continua executando os próximos cases
+mesmo que a condição já tenha sido satisfeita*/

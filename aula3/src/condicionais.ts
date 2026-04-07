@@ -4,8 +4,6 @@ if (idade < 12){
     console.log("Crianca");
 } else if (idade < 18) {
     console.log("Adolescente");
-} else if (idade < 70 ){
+} else{
     console.log("Adulto");
-} else {
-    console.log("Idoso");
 }
