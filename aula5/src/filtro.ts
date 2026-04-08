@@ -45,4 +45,4 @@ const pessoas: Pessoa[] = [
 
 let maioresDeIdade = pessoas.filter(pessoa => pessoa.idade >= 18);
 
-console.log(maioresDeIdade); //
+console.log(maioresDeIdade); //{nome: 'Ferdinando', idade: 30}, {nome: 'Francis', idade: 98}, {nome: 'Carol', idade: 28}

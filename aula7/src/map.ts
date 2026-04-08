@@ -1,4 +1,4 @@
-const numeros = [1, 2, 3, 4, 5];
+const numeros: number[] = [1, 2, 3, 4, 5];
 
 const dobro = numeros.map(n => n * 2);
 const strings: string[] = numeros.map(n => `Numero ${n}`);
@@ -7,9 +7,10 @@ console.log(dobro);
 console.log(strings);
 
 type Produto = {id: number, nome: string, preco: number}
+
 const produtos: Produto[] = [
     {id: 1, nome: 'Mouse', preco: 50},
-    {id: 2, nome: 'Teclado', preco: 150 }
+    {id: 2, nome: 'Teclado', preco: 150}
 ];
 
 const nomes: string[] = produtos.map(p => p.nome);

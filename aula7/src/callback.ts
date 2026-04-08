@@ -7,7 +7,7 @@ function concatenar(a: string, b: string, callback: (param: string) => void): vo
     callback(op);
 }
 
-function somar (a: number , b: number , callback: (param: number) => void ): void{
+function somar(a: number, b: number, callback: (param: number) => void): void{
     var op = a + b;
     callback(op);
 }
